@@ -37,8 +37,3 @@ def test_aeb_brake(case):
             expected=expected.lower()=="true"#将字符串中的所有大写字母转换为小写字母，返回新字符串，这里配合 == "true" 实现判断返回布尔值T/F
         result = should_break(speed, distance)
         assert result == expected,f"speed={speed}.distance={distance},expected={expected},got={result}"
-        git
-        remote
-        add
-        origin
-        https: // github.com / yylzxh / aeb-test-demo.git
